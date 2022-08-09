@@ -12,6 +12,7 @@ public class Product {
     @Column(name = "PRODUCT_ID")
     String id;
     String name;
+    @Column(name = "MEASURE")
     int size;
     String variety;
     double price;

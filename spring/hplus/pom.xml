@@ -34,11 +34,22 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!--
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		-->
+		<!-- added for Oracle connection -->
+		<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!-- added for Oracle connection -->
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>

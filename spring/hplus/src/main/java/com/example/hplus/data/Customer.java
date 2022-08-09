@@ -8,7 +8,7 @@ public class Customer {
 
     @Id
     @Column(name="CUSTOMER_ID")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
     @Column(name = "FIRST_NAME")
     private String firstName;
