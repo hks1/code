@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-Sök
 <body>
 <header id="home" class="header">
     <nav class="nav" role="navigation">
