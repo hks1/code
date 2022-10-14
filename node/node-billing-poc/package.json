@@ -1,0 +1,18 @@
+{
+  "name": "node-oracle-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "kafkajs": "^1.15.0",
+    "oracledb": "^5.1.0"
+  }
+}
