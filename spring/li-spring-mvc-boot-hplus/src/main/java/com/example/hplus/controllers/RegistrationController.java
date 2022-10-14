@@ -34,6 +34,7 @@ public class RegistrationController {
         if (result.hasErrors()) {
             return "register";
         }
+        System.out.println(user);
         userRepository.save(user);
         model.addAttribute("dataSaved", "User registered successfully");
         return "login";
