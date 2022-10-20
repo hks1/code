@@ -1,6 +1,7 @@
 package com.example.hplus.config;
 
 import com.example.hplus.convertors.StringToEnumConvertor;
+import com.example.hplus.interceptors.LoggingInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -9,6 +10,7 @@ import org.springframework.core.task.AsyncTaskExecutor;
 import org.springframework.format.FormatterRegistry;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.web.servlet.config.annotation.AsyncSupportConfigurer;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
@@ -68,4 +70,9 @@ public class ApplicationConfig extends WebMvcConfigurationSupport {
         viewResolver.setBasename("views");
         return viewResolver;
     }*/
+
+    @Override
+    protected void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(new LoggingInterceptor()).addPathPatterns("/*");
+    }
 }
