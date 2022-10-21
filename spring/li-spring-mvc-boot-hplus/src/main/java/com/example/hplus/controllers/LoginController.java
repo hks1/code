@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 @SessionAttributes("login")
 public class LoginController {
@@ -25,7 +27,10 @@ public class LoginController {
     }*/
 
     @PostMapping("/login")
-    public String login(@ModelAttribute("login")Login login){
+    public String login(@ModelAttribute("login")Login login, HttpSession session){
+        // full session management with session object
+        //session.setAttribute("", "");
+        //session.setMaxInactiveInterval(1);
         User user = userRepository.findByName(login.getUsername());
         if(user == null) {
             throw new ApplicationException("User not found.");
