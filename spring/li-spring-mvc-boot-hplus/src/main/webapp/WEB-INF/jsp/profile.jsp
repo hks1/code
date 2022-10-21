@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>HPlus</title>
+    <title>HPlus</title><ul class="navbar">
+                                        <li><a href="/home">home</a></li>
+                                        <li><a href="/logout">logout</a></li>
+                                        <li><a href="/goToSearch">search</a></li>
+                                        <li><a href="">linkedin</a></li>
+                                    </ul><!-- navbar -->
 <link rel="stylesheet" href="css/style.css">
 <meta charset="ISO-8859-1">
 </head>
@@ -12,12 +17,7 @@
             <div class="branding">
                 <a href="#home"><img src="images/hpluslogo.svg" alt="Logo - H Plus Sports"></a>
             </div><!-- branding -->
-            <ul class="navbar">
-                <li><a href="">home</a></li>
-                <li><a href="">logout</a></li>
-                <li><a href="">search</a></li>
-                <li><a href="">linkedin</a></li>
-            </ul><!-- navbar -->
+
 
         </div><!-- container nav-elements -->
     </nav>
