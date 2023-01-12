@@ -36,7 +36,7 @@ Bcrypt is 10,000 times slower than sha1 to run. If we have a machine that is abl
 
 
 
-
+## Examples
 
 --user not found
 ```bash
