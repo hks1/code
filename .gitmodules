@@ -1,0 +1,3 @@
+[submodule "ServletProject"]
+	path = ServletProject
+	url = https://github.com/hks1/ServletProject
