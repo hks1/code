@@ -8,6 +8,7 @@ class CrmApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("running test");
 	}
 
 }
