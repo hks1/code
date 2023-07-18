@@ -1,0 +1,11 @@
+
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ßÆâÑıÿÿÿÿ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(†…„
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ëŞ°øÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(†…„
+P	java:S1251"<This block of commented-out lines of code should be removed.(Ê×Ív
+\
+java:S16125"AReplace this lambda with method reference 'DIGITAL_WALLETS::get'.(Û·¿»ùÿÿÿÿ
+V
+java:S16126"@Replace this lambda with method reference 'System.out::println'.(ª£³Í
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(ª£³Í

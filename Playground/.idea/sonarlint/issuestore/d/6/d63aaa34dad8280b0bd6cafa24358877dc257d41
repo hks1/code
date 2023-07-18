@@ -1,0 +1,33 @@
+
+Y
+java:S6208j"CMerge the previous cases into this one using comma-separated label.(µö³¿
+^
+java:S6208p"CMerge the previous cases into this one using comma-separated label.(ı¤âÎûÿÿÿÿ
+^
+java:S6208w"CMerge the previous cases into this one using comma-separated label.(„äàÁÿÿÿÿÿ
+^
+java:S6208}"CMerge the previous cases into this one using comma-separated label.(¥†æıÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(æäÖ±ÿÿÿÿÿ
+V	java:S125#"<This block of commented-out lines of code should be removed.(ÍÆ¦´ûÿÿÿÿ
+V	java:S125'"<This block of commented-out lines of code should be removed.(ö½Úüÿÿÿÿ
+Q	java:S125+"<This block of commented-out lines of code should be removed.(¸™…Â
+h
+java:S2975<"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 
+=
+java:S1185<"(Remove this method to simply inherit it.(™”” 
+N	java:S106g"9Replace this use of System.out or System.err by a logger.(Ÿ’È™
+N	java:S106k"9Replace this use of System.out or System.err by a logger.(Ô³Ùú
+N	java:S106m"9Replace this use of System.out or System.err by a logger.(œí¿
+N	java:S106q"9Replace this use of System.out or System.err by a logger.(“„â¹
+N	java:S106s"9Replace this use of System.out or System.err by a logger.(Ì¦ì—
+Q	java:S125t"<This block of commented-out lines of code should be removed.(æÖ«ˆ
+N	java:S106x"9Replace this use of System.out or System.err by a logger.(¼ß«ñ
+S	java:S106z"9Replace this use of System.out or System.err by a logger.(–´¯§úÿÿÿÿ
+N	java:S106~"9Replace this use of System.out or System.err by a logger.(«š—ô
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(‡ú›ºøÿÿÿÿ
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(‘½ƒüÿÿÿÿ
+O	java:S106†"9Replace this use of System.out or System.err by a logger.(‘Èúü
+W	java:S125Š"<This block of commented-out lines of code should be removed.(„­¯°üÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(Ó×ñøÿÿÿÿ
+Q	java:S125”"<This block of commented-out lines of code should be removed.(ºˆËi
+T	java:S106¡"9Replace this use of System.out or System.err by a logger.(Ä×´Áùÿÿÿÿ

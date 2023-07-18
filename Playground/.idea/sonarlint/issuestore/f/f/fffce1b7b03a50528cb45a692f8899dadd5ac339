@@ -1,0 +1,6 @@
+
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(ƒùø
+h
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 
+V	java:S125"<This block of commented-out lines of code should be removed.(ŞÎÁÙøÿÿÿÿ

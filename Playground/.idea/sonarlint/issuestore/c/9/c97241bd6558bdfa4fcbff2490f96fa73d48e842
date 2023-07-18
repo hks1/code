@@ -1,0 +1,8 @@
+
+c
+java:S3824"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(â²ñ×úÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Êâ’õÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ
+V	java:S125 "<This block of commented-out lines of code should be removed.(–ÐÛßûÿÿÿÿ
+N	java:S106("9Replace this use of System.out or System.err by a logger.(¨è’ç
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(¢©²©

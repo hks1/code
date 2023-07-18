@@ -1,0 +1,6 @@
+
+N	java:S106	"9Replace this use of System.out or System.err by a logger.(íüüÔ
+S
+java:S3878"8Remove this array creation and simply pass the elements.(…”÷¼ÿÿÿÿÿ
+N
+java:S3878"8Remove this array creation and simply pass the elements.(ˆóÃ‚
